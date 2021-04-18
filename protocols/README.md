@@ -4,6 +4,7 @@ Developed as a community asset
 
 ## General / Miscellaneous Releases
 
+- [ICS System Ports List](PORTS.md) - This is a list of common ICS tcp/udp ports.
 - [PoC 2013 SCADA Release](https://github.com/atimorin/PoC2013) - Power of Community 2013 conference special release of ICS/SCADA toolkit
 - [Industrial Control Systems Network Protocol Parsers (ICSNPP)](https://github.com/cisagov/ICSNPP) - DHS CISA Industrial Control Systems protocol parsers plugins for the Zeek network security monitoring framework
 
@@ -70,6 +71,7 @@ Developed as a community asset
 ### Tools
 
 - [IEDScout](https://www.omicronenergy.com/en/products/all/secondary-testing-calibration/iedscout/noc/1/) - IEDScout provides access to 61850-based IEDs and can simulate entire Ed. {1,2} IEDs. Specifically, IEDScout lets you look inside the IED and at its communication. All data modeled and exchanged becomes visible and accessible. Additionally, IEDScout serves numerous useful tasks, which could otherwise only be performed with dedicated engineering tools or even a functioning master station. IEDScout shows an overview representing the typical workflow of commissioning, but also provides detailed information upon request. **[commercial]** Free 30 day evaluation license.
+- [Goose-Stalker](https://github.com/cutaway-security/goosestalker) - Goose-Stalker is a project to analyze and interact with Ethernet types associated with IEC 61850. Currently, the project is focused on Ethernet type 0x88b8 as published by the goose-IEC61850-scapy. The project has morphed significantly and the direction is to progress this even further.
 
 ### Traffic Generation
 
@@ -144,6 +146,7 @@ Developed as a community asset
 - [Profinet - C](https://github.com/kprovost/libs7comm) - PROFINET implementation in C
 - [Profinet Explorer](https://sourceforge.net/projects/profinetexplorer/) - Simple PROFINET explorer written in C#
 - [zeek plugin Profinet](https://github.com/amzn/zeek-plugin-profinet) - PROFINET Zeek Plugin from Amazon
+- [PROFINET GSD Checker](https://www.profibus.com/download/profinet-gsd-checker/) - Free tool to show and edit the content of GSD files for PROFINET in an easy to understand table view. It also contains a function to check the accuracy of GSD files which helps to build a valid description file.
 
 ### Fuzzing
 
@@ -154,6 +157,7 @@ Developed as a community asset
 - [Wireshark Dissector - SEL Fast Message](https://github.com/boundary/wireshark/blob/master/epan/dissectors/packet-selfm.c) - Wireshark Dissector for SEL Fast Message
 - [Grid Solutions Framework SEL Fast Message](https://github.com/GridProtectionAlliance/gsf/tree/master/Source/Libraries/GSF.PhasorProtocols/SelFastMessage) - GSF implementation (.net)
 - [SEL Applications Guides](https://www.selinc.com) - Look up AG95-10 and AG2002-14 product codes.
+- [SELProtoPy](https://github.com/engineerjoe440/selprotopy) - Schweitzer Engineering Laboratories (SEL) Protocol Bindings in Python. Implements SEL Fast Meter, Fast Message, and Fast Operate.
 
 ## Siemens S7
 
