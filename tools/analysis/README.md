@@ -29,7 +29,8 @@ Developed as a community asset
 
 ### Network
 
-- [GRASSMARLIN](https://github.com/iadgov/GRASSMARLIN) - GRASSMARLIN provides IP network situational awareness of industrial control systems (ICS) and Supervisory Control and Data Acquisition (SCADA) networks to support network security. Passively map, and visually display, an ICS/SCADA network topology while safely conducting device discovery, accounting, and reporting on these critical cyber-physical systems.
+- [ICS Protocol Tools](/protocols/) - See ICS Protocols for more information.
+- [NSA GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN) - GRASSMARLIN provides IP network situational awareness of industrial control systems (ICS) and Supervisory Control and Data Acquisition (SCADA) networks to support network security. Passively map, and visually display, an ICS/SCADA network topology while safely conducting device discovery, accounting, and reporting on these critical cyber-physical systems. Now Deprecated, so mirrored [here](/tools/mirrored/grassmarlin).
 - [ARMORE](https://github.com/ITI/ARMORE) - ARMORE was developed to be an open-source software solution that will aid asset owners by increasing visibility, securing communications, and inspecting ICS communications for behavior that is not intended. Built around Bro and Linux.
 - [EDMAND](https://github.com/ITI/EDMAND) - EDMAND Anomaly detection framework. Built around Bro.
 - [AIUS](https://github.com/ITI/aius) - AIUS Repository (EDMAND/CAPTAR combination). Built around Bro.
@@ -39,6 +40,8 @@ Developed as a community asset
 - [Skydive](https://github.com/skydive-project/skydive) - An open source real-time network topology and protocols analyzer
 - [Zeek Goose Protocol Parser](https://github.com/smartgridadsc/Goose-protocol-parser-for-Zeek-IDS) - A Zeek GOOSE parser has been developed to enable detailed analysis of the transmitted data and allow rule-based identification of anomalies related to cybersecurity attacks. It is compatible with an older instance of Zeek Network Security Monitor (v2.6).
 - [ntopng (community version)](https://github.com/ntop/ntopng) - a web-based network traffic monitoring application released under GPLv3. Supports Industrial IOT and Scada with modbus, DNP3 and IEC 60870-5-104 since ntopng 4.2 (October 2020)
+- [Sequence 2 Sequence Anomaly Detection on SWaT](https://github.com/jukworks/swat-seq2seq) - Anomaly Detection for SWaT Dataset using Sequence-to-Sequence Neural Networks
+- [Poisoning ICS Attack Detectors](https://github.com/mkravchik/poisoning-ics-ad) - Poisoning Attacks on Cyber Attack Detectors for Industrial Control Systems -- operates on the SWaT dataset
 
 ### Protocols
 
@@ -50,7 +53,7 @@ Developed as a community asset
 - [ANGR](https://github.com/angr/angr) - A powerful and user-friendly binary analysis platform.
 - [Floss](https://github.com/fireeye/flare-floss) - FireEye Labs Obfuscated String Solver (FLOSS) uses advanced static analysis techniques to automatically deobfuscate strings from malware binaries.
 
-# Symbolic Execution
+### Symbolic Execution
 
 - [SymCC](https://github.com/eurecom-s3/symcc) - SymCC: efficient compiler-based symbolic execution
 - [IEC-Checker](https://github.com/jubnzv/iec-checker) - This project aims to implement an open source tool for static code analysis of IEC 61131-3 programs.
@@ -58,5 +61,10 @@ Developed as a community asset
 ### Samples
 
 - [Trisis/Triton/Hatman](https://github.com/MDudek-ICS/TRISIS-TRITON-HATMAN) - Repository containing original and decompiled files of TRISIS/TRITON/HATMAN malware
+
+### System Analysis
+
+- [PASAD](https://github.com/mikeliturbe/pasad) - Process-Aware Stealthy Attack Detection using SWaT and DVCP-TE
+- [Archive Walker](https://github.com/pnnl/archive_walker) - PMU data analysis tool
 
 (creative commons license)

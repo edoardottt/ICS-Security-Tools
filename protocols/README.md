@@ -29,11 +29,13 @@ Developed as a community asset
 ### Protocol Implementation
 
 - [OpenDNP3](https://github.com/automatak/dnp3) - Opendnp3 is the de facto reference implementation of IEEE-1815 (DNP3) provided under the Apache License.
+- [pydnp3 wrapper](https://github.com/ChargePoint/pydnp3) - Python wrapper for opendnp3
 - [DNP3 Simulator](https://github.com/automatak/dnp3-simulator) - Graphical DNP3 Master/Outstation simulator
 - [PIFaceRTU](https://github.com/automatak/pifacertu) - Opendnp3 running on a Raspberry Pi with Piface I/O board
 - [LangSec DNP3 Parser](https://github.com/Dartmouth-Trustlab/dnp3) - Parsing DNP3 using parser combinators in C.
 - [Proxyd](https://github.com/Dartmouth-Trustlab/proxy) - TCP Proxy for testing hammer based parsers (such as the DNP3 parser above)
 - [ICSNPP DNP3 for Zeek](https://github.com/cisagov/icsnpp-dnp3) - DHS CISA DNP3 logging extensions to Zeek
+- [dnp3 - rust implementation](https://github.com/stepfunc/dnp3) - Rust implementation of DNP3 (IEEE 1815) with idiomatic bindings for C, .NET, and Java
 
 ### Traffic Generation
 
@@ -41,7 +43,12 @@ Developed as a community asset
 
 ### Fuzzing
 
-- [AEGIS Fuzzer](https://www.automatak.com/aegis/) - Aegis™ is a smart fuzzing framework for a growing number of protocols that can identify robustness and security issues in communications software before it is deployed in a production system. **[commercial]** Early Open Source version is mirrored here: [Open-Source](aegis-opensource).
+- [AEGIS Fuzzer](https://www.automatak.com/aegis/) - Aegis™ is a smart fuzzing framework for a growing number of protocols that can identify robustness and security issues in communications software before it is deployed in a production system. **[commercial]** Early Open Source version is mirrored here: [Open-Source](/tools/mirrored/aegis-opensource/).
+- [Modbus Fuzzer](https://github.com/bl4ckic3/Modbus-Fuzzer) - Modbus Protocol Fuzzer
+
+## Ethercat
+
+- [ICSNPP Ethercat for Zeek](https://github.com/cisagov/icsnpp-ethercat) - DHS CISA Ethercat plugin for Zeek
 
 ## Ethernet/IP and CIP
 
@@ -56,7 +63,7 @@ Developed as a community asset
 
 ## IEC 104
 
-- [IEC Server](../tools/mirrored/iec-server/) - Software to simulate server side of systems using a telecontrol message Protocol specified in the IEC 60870-5. Original website http://area-x1.lima-city.de is down, so this has been mirrored.
+- [IEC Server](/tools/mirrored/iec-server/) - Software to simulate server side of systems using a telecontrol message Protocol specified in the IEC 60870-5. Original website http://area-x1.lima-city.de is down, so this has been mirrored.
 - [OpenMRTS](https://sourceforge.net/projects/mrts/) - MRTS is an attempt to create open source IEC 870-5-101/104 based components for telecontrol and supervisory systems and to become a complete solution in future.
 - [QTester104](https://sourceforge.net/projects/qtester104/) - This software implements the IEC60870-5-104 protocol (client side) for substation data acquisition and control via tcp/ip network using the QT UI Framework. It can be compiled on Linux and Windows platforms. It's possible to poll and view data from the substation system (RTU/concentrator) and also send commands.
 - [lib60870](https://github.com/mz-automation/lib60870) - Implements IEC 60870-5-104 protocol.
@@ -107,10 +114,11 @@ Developed as a community asset
 
 - [pyModBus](https://github.com/bashwork/pymodbus) - A full modbus protocol written in python.
 - [Modbus for Go](https://github.com/goburrow/modbus) - Fault-tolerant implementation of modbus protocol in Go (golang)
-- [ModbusPal](http://modbuspal.sourceforge.net) - ModbusPal is a MODBUS slave simulator. Its purpose is to offer an easy to use interface with the capabilities to reproduce complex and realistic MODBUS environments. Mirror available [here](../tools/mirrored/modbuspal/).
-- [SMOD](../tools/mirrored/smod/) - MODBUS Penetration Testing Framework. smod is a modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol. It is a full Modbus protocol implementation using Python and Scapy. (mirrored as original source is now gone)
+- [ModbusPal](http://modbuspal.sourceforge.net) - ModbusPal is a MODBUS slave simulator. Its purpose is to offer an easy to use interface with the capabilities to reproduce complex and realistic MODBUS environments. Mirror available [here](/tools/mirrored/modbuspal/).
+- [SMOD](/tools/mirrored/smod/) - MODBUS Penetration Testing Framework. smod is a modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol. It is a full Modbus protocol implementation using Python and Scapy. (mirrored as original source is now gone)
 - [mbtget](https://github.com/sourceperl/mbtget) - A simple modbus/TCP client write in pure Perl.
 - [ICSNPP Modbus for Zeek](https://github.com/cisagov/icsnpp-modbus) - DHS CISA Modbus extensions to logging for Zeek
+- [rodbus](https://github.com/stepfunc/rodbus) - Rust implementation of Modbus with idiomatic bindings for C, C++, .Net, and Java
 
 ### Traffic Generation
 
@@ -118,7 +126,7 @@ Developed as a community asset
 
 ### Fuzzing
 
-- [AEGIS Fuzzer](https://www.automatak.com/aegis/) - Aegis™ is a smart fuzzing framework for a growing number of protocols that can identify robustness and security issues in communications software before it is deployed in a production system. **[commercial]** Early Open Source version is mirrored here: [Open-Source](../tools/mirrored/aegis-opensource).
+- [AEGIS Fuzzer](https://www.automatak.com/aegis/) - Aegis™ is a smart fuzzing framework for a growing number of protocols that can identify robustness and security issues in communications software before it is deployed in a production system. **[commercial]** Early Open Source version is mirrored here: [Open-Source](/tools/mirrored/aegis-opensource).
 
 ## OPC UA
 

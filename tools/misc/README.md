@@ -25,6 +25,7 @@ Developed as a community asset
 ## Exploit frameworks
 
 - [Sixnet Tools](https://github.com/mssabr01/sixnet-tools) - Tool for exploiting sixnet RTUs
+- [ICS Exploits - Industrial Army](https://github.com/industrialarmy/ics_exploits)
 
 ## Demonstrations
 
@@ -41,10 +42,25 @@ Developed as a community asset
 ## Metasploit Modules
 
 - [Gleg SCADA+ Pack](http://gleg.net/agora_scada.shtml) - **Commercial**
-- [S7 Metasplot pack](../mirrored/s7-metasploit-modules) - Initial s7 metasploit modules.
+- [S7 Metasploit pack](/tools/mirrored/s7-metasploit-modules) - Initial s7 metasploit modules.
 - [Schneider Electric PLC / Modbus modules from DEFCON 25](https://github.com/arnaudsoullie/funwithmodbus0x5a) - Downloading a program from the PLC, gathering information about the PLC and forcing the values of the digital outputs, START/STOP
 - [IEC 104 Module](https://github.com/michaelj0hn/iec104) - IEC104 Client for Metasploit [merged into mainline](https://github.com/rapid7/metasploit-framework/pull/10386)
 - [random modbus tools](https://github.com/arnaudsoullie/funwithmodbus0x5a) - ICS Village talk at DEFCON 25
+
+## PoCs
+
+- [Tenable PoCs](https://github.com/tenable/poc/)
+  - [VServer](https://github.com/tenable/poc/tree/master/FujiElectric/VServer) - [CVE-2019-3946](https://nvd.nist.gov/vuln/detail/CVE-2019-3946)
+  - [codesys](https://github.com/tenable/poc/tree/master/codesys) - Misc CVEs
+  - [Advantech WebAccess](https://github.com/tenable/poc/tree/master/advantech/webaccess_scada) - [CVE-2018-15705](https://nvd.nist.gov/vuln/detail/CVE-2018-15705)
+  - [TIAPortal](https://github.com/tenable/poc/tree/master/Siemens/TIAPortal) - Misc CVEs
+  - [Schneider Electric](https://github.com/tenable/poc/tree/master/SchneiderElectric) - Misc CVEs
+  - [Rockwell Automation](https://github.com/tenable/poc/tree/master/RockwellAutomation) - Misc CVEs
+- Cisco Talos PoCs
+  - [Allen Bradley MicroLogix](https://blog.talosintelligence.com/2018/03/ab-micrologix-1400-multiple-vulns.html) - Misc CVEs
+  - [Advantech WebAccess](https://blog.talosintelligence.com/2021/02/advantech-web-access-scada.html) - Misc CVEs
+  - [Moxa Industrial Secure Router](https://blog.talosintelligence.com/2018/04/vuln-moxa-edr-810.html) - Misc CVEs
+  - [Moxa Industrial Wireless Access Point](https://blog.talosintelligence.com/2018/04/vulnerability-spotlight-moxa-awk-3131a.html) - Misc CVEs, also [here](https://blog.talosintelligence.com/2017/04/moxa-hardcoded-creds.html)
 
 ## Other
 

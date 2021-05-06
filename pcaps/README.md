@@ -6,6 +6,7 @@ Developed as a community asset
 
 - [CapSan](https://github.com/jsiwek/capsan) - Packet capture sanitizer/anonymizer for Jon Siwek at University of Illinois.
 - [Malcolm](https://github.com/cisagov/Malcolm) - Malcolm is a powerful, easily deployable network traffic analysis tool suite for full packet capture artifacts (PCAP files) and Zeek logs.
+- [Reference Table of ICS Protocol - Wireshark Dissectors](/pcaps/wireshark-disectors.tsv)
 
 ## Protocol Organized PCAPs
 
@@ -31,6 +32,7 @@ Developed as a community asset
 - [Various OPC Specifications](OPC) - Various OPC specifications
 - [Various Zigbee Captures](Zigbee) - Various Zigbee captures
 - [Netresec PCAP collection](https://www.netresec.com/?page=PcapFiles) - This is a list of public packet capture repositories, which are freely available on the Internet. Most of the sites listed below share Full Packet Capture (FPC) files, but some do unfortunately only have truncated frames.
+- [ControlThings I/O PCAP collection](https://github.com/ControlThings-io/ct-samples/tree/master/Protocols) - ICS PCAP repository from ControlThings I/O
 
 ## Datasets
 
