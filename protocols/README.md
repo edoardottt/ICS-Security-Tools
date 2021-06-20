@@ -7,10 +7,13 @@ Developed as a community asset
 - [ICS System Ports List](PORTS.md) - This is a list of common ICS tcp/udp ports.
 - [PoC 2013 SCADA Release](https://github.com/atimorin/PoC2013) - Power of Community 2013 conference special release of ICS/SCADA toolkit
 - [Industrial Control Systems Network Protocol Parsers (ICSNPP)](https://github.com/cisagov/ICSNPP) - DHS CISA Industrial Control Systems protocol parsers plugins for the Zeek network security monitoring framework
+- [Triangle Microworks DTM](https://www.trianglemicroworks.com/products/testing-and-configuration-tools/dtm-pages/overview) - Distributed Test Manager (DTM) is a Windows® application that can simulate the SCADA communications in the substation and perform automated tests to confirm system or individual device behavior. **commercial**
 
 ## AMI
 
-- [Termineter](https://github.com/GrayHatLabs/john_commor_c1218) - c1218 powermeter emulator
+- [C1218 Termineter](https://github.com/GrayHatLabs/john_commor_c1218) - c1218 powermeter emulator
+- [Newer Termineter](https://github.com/rsmusllp/termineter) - Smart Meter Security Testing Framework
+- [Kamstrup Meter Protocol (KMP)](https://github.com/johnnykv/PyKamstrup) - TCP/IP Kamstrup Meter Protocol (KMP) implementation
 
 ## BACnet
 
@@ -21,8 +24,7 @@ Developed as a community asset
 
 ## Bristol Standard Asynchronous Protocol (BSAP)
 
-- [ICSNPP BSAP IP for Zeek](https://github.com/cisagov/icsnpp-bsap-ip) - DHS CISA BSAP over IP plugin for Zeek
-- [ICSNPP BSAP Serial for Zeek](https://github.com/cisagov/icsnpp-bsap-serial) - DHS CISA BSAP over Serial plugin for Zeek
+- [ICSNPP BSAP IP for Zeek](https://github.com/cisagov/icsnpp-bsap) - DHS CISA BSAP plugin for Zeek
 
 ## DNP3
 
@@ -127,6 +129,15 @@ Developed as a community asset
 ### Fuzzing
 
 - [AEGIS Fuzzer](https://www.automatak.com/aegis/) - Aegis™ is a smart fuzzing framework for a growing number of protocols that can identify robustness and security issues in communications software before it is deployed in a production system. **[commercial]** Early Open Source version is mirrored here: [Open-Source](/tools/mirrored/aegis-opensource).
+
+## Multispeak
+
+### Protocol Implementation
+
+- [Multispeak](https://github.com/saberdaagi/multispeak) - Implementation of multispeak protocol.
+- [Simple-Mutlispeak](https://github.com/eau-claire-energy-cooperative/simple-multispeak) - a simple, extendable, interface for communicating with a webservice implementing the Multispeak Standard.
+- [MS-SPEAK](https://github.com/pnnl/ms-speak) - Multi-Speak - Secure Protocol Enterprise Access Kit
+-
 
 ## OPC UA
 
